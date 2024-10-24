@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+}
+.addTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.addTask input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 250px;
+}
+
+.addTask button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #b11d29;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.addTask button:hover {
+  background-color: #218838;
+}
+
+.taskColumns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.taskColumn {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 200px;
+  min-height: 450px;
+}
+
+.taskColumn h2 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #990e15;
+}
+
+.taskItem {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: grab;
+}
+
+.taskItem:active {
+  cursor: grabbing;
+  background-color: #e0e0e0;
+}
+
